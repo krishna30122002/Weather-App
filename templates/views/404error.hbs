@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>headerLinks}}
+  </head>
+  <body>
+
+    <!-- navbar -->
+    {{>navbar}}
+
+
+    <!-- header -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <div class="col-md-12 col-12 main_header_left align-items-center">
+                    <figure class="errImg"> <img class="img-fluid" src="images/bg4.jpg" alt="404 Not Found"></figure>
+                    
+                        <p>Welcome To weather.net</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- footer -->
+    {{>footer}}
+  </body>
+</html>
